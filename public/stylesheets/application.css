@@ -1,5 +1,15 @@
 body{
+	background: white;
 	color: black;
+	font-family: arial;
+	font-size: 14px;
+}
+
+container{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
 }
 
 #head{
@@ -15,4 +25,68 @@ body{
 	height: 643px;
 	margin-left: auto;
 	margin-right: auto;
+	display: inline;
 }
+
+#foto2{
+	width: 425px;
+	height: 643px;
+	float: left;
+	display: inline;
+	padding-right: 10px; 
+}
+
+#foto3{
+	width: 425px;
+	height: 643px;
+	float: right;
+	display: inline;
+	padding-left: 10px;
+}
+#links{
+	text-align: center;
+	padding-top: 15px;
+}
+a{
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: arial;
+}
+
+a:hover{
+	color: red;
+	}
+	
+#biohead{
+	width: 777px;
+	height: 141px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#biotext{
+	width: 777px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#phototext{
+	width: 777px;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+
+#digavideo{
+	width: 853px;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#photohead{
+	width: 777px;
+	height: 141px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	

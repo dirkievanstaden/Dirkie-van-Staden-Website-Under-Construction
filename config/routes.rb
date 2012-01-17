@@ -1,6 +1,17 @@
 Blou::Application.routes.draw do
-
-  root :to => 'pages#home' 
+  
+  match '/biography', :to => 'pages#biography'
+  
+  match '/photogallery', :to => 'pages#photogallery'
+  
+  match '/music', :to => 'pages#music'
+  
+  match '/videos', :to => 'pages#videos'
+  
+  match '/contact', :to => 'pages#contact'
+  root :to => 'pages#home'
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
